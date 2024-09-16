@@ -1,0 +1,28 @@
+h1 {
+  border: 4px;
+}
+.main-title {
+  color: rgb(200, 17, 163);
+}
+.button {
+  color: rgb(4, 3, 1);
+  background: rgba(129, 155, 87, 1);
+  width: Hug (238px) px;
+  height: Hug (59px) px;
+  padding: 10px 25px 10px 25px;
+  gap: 10px;
+  border-radius: 20px 20px 20px 20px;
+  border: 2px solid;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: transparent;
+  color: red;
+}
+.button:focus {
+  background-color:blue;
+  color: bisque;
+}
+.button:active {
+  background-color:rgb(27, 233, 209);
+  color: bisque;
