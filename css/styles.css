@@ -1,28 +1,74 @@
+:root {
+  --color-brand-light: #819b57;
+  --color-brand-dark: #465929;
+  --color-prymary-dark: #31261a;
+  --color-prymary-light: #faf4ea;
+}
+
+/*Global style*//*Base*/
+body{
+ color: var(--color-prymary-dark); 
+}
 h1 {
   border: 4px;
+}
+ul {
+  list-style-type: none;
 }
 .main-title {
   color: rgb(200, 17, 163);
 }
+/*Button style */
 .button {
   color: rgb(4, 3, 1);
-  background: rgba(129, 155, 87, 1);
+  background-color: var(--color-brand-dark);
   width: Hug (238px) px;
   height: Hug (59px) px;
-  padding: 10px 25px 10px 25px;
+  padding: 16px 32px 16px 32px;
   gap: 10px;
-  border-radius: 20px 20px 20px 20px;
-  border: 2px solid;
-  cursor: pointer;
+  border-radius: 8px 8px 8px 8px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
 }
+
 .button:hover {
   background-color: transparent;
   color: red;
 }
+
 .button:focus {
-  background-color:blue;
-  color: bisque;
+  background-color: blue;
+  color: var(--color-prymary-light);
 }
+
 .button:active {
-  background-color:rgb(27, 233, 209);
-  color: bisque;
+  background-color: rgb(27, 233, 209);
+  color: var(--color-prymary-light);
+}
+/* Link style */
+.link {
+  color: var(--color-prymary-light);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+/* Hero style */
+.hero-title {
+  color: var(--color-prymary-light);
+}
+.hero-title .accent {
+  color: var(--color-brand-light);
+}
+/* Advantages style */
+.advantages-list {
+  color: var(--color-prymary-light);
+  background-color: var(--color-brand-light);
+}
+/* Section style */
+.section-title {
+  color: var(--color-prymary-dark);
+}
+.accent-section {
+  color: var(--color-brand-dark);
+}
