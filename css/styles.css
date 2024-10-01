@@ -4,10 +4,9 @@
   --color-prymary-dark: #31261a;
   --color-prymary-light: #faf4ea;
 }
-
-/*Global style*//*Base*/
-body{
- color: var(--color-prymary-dark); 
+/*Global style*/ /*Base*/
+body {
+  color: var(--color-prymary-dark);
 }
 h1 {
   border: 4px;
